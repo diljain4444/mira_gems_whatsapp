@@ -1,0 +1,30 @@
+# Environment variables (keep secrets out of version control)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Chrome extension build artifacts
+node_modules/
+extension/node_modules/
+extension/dist/
+*.tsbuildinfo
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
